@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Información personal</legend>
+
+            <label for="nombre">Nombre</label>
+            <LAbel></LAbel>Apellido
+            <input type="text" name="nombre" id="nombre">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" pattern="[0-9]{9}" name="telefono" id="telefono">
+            
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento">
+
+            <label for="genero">Género</label>
+            <label for="masculino">femenino</label>
+            <input type="radio" name="genero" value="masculino" id="masculino">
+
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="genero" value="femenino" id="femenino">
+
+            <label for="color">Color favorito</label>
+            <input type="color" name="color" id="color">
+        </fieldset>
+        <fieldset>
+            <legend>Mensaje</legend>
+
+            <label for="tipo_mensaje">Tipo de mensaje</label>
+            <select name="tipo_mensaje" id="tipo_mensaje">
+                <option value="profesional">Profesional</option>
+                <option value="personal">Personal</option>
+            </select>
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="50" rows="4"></textarea>
+        </fieldset>
+        <button type="reset">Borrar</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
