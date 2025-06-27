@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía de Vinos para Principiantes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Guía de Vinos para Principiantes</h1>
+    <p>Descubre el fascinante mundo del vino, paso a paso.</p>
+  </header>
+
+  <section class="tipos">
+    <h2>Tipos de Vino</h2>
+    <div class="vino">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Red_Wine_Glass.jpg" alt="Vino Tinto">
+      <h3>Vino Tinto</h3>
+      <p>Ideal para carnes y platos intensos. Suele servirse a temperatura ambiente.</p>
+    </div>
+    <div class="vino">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/White_Wine_Glass.jpg" alt="Vino Blanco">
+      <h3>Vino Blanco</h3>
+      <p>Refrescante, va bien con pescados, mariscos y quesos suaves.</p>
+    </div>
+    <div class="vino">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Ros%C3%A9_wine.jpg" alt="Vino Rosado">
+      <h3>Vino Rosado</h3>
+      <p>Ligero y frutal, perfecto para aperitivos y días calurosos.</p>
+    </div>
+  </section>
+
+  <section class="consejos">
+    <h2>Consejos para Empezar</h2>
+    <ul>
+      <li>Empieza con vinos suaves y afrutados.</li>
+      <li>No te preocupes por las reglas, prueba lo que te gusta.</li>
+      <li>Sirve el vino a la temperatura adecuada.</li>
+      <li>Usa copas limpias y sin detergente perfumado.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Guía de Vinos. Para disfrutar con responsabilidad 🍷</p>
+  </footer>
+</body>
+</html>

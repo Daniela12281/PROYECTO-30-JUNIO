@@ -1,0 +1,43 @@
+>!DOCTYPE HYML>
+<html lang="en">        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Practica Java script</title>
+    <link rel="stylesheet" href="styles.css">  
+</head>
+<body class="Mi Primera practica" > h1
+    <h1>Mi primer proyecto</h1>
+    <p>Hola, soy Daniela Bedoya, tengo 18 años y soy estudiante de ingeniería de sistemas. Me gusta la programación y la tecnología.</p>
+    <p>Este es mi primer proyecto en HTML y CSS.</p>
+    <p>Espero que te guste.</p>
+    <p>Gracias por visitar mi proyecto.</p> id= "mensaje" ></p>
+    <p>Si quieres saber más sobre mí, puedes visitar mi perfil en <a href="https://www.linkedin.com/in/daniela-bedoya-123456789/">LinkedIn</a>.</p>
+    <button onclick="mostrarMensaje()">Mostrar mensaje</button>
+    <buttton onclick="mostrarMensaje()">Mostrar numeros del 1 al 10</button>    
+
+    <script>
+
+        function mostrarMensaje() {
+            let mensaje = "Hola, soy Daniela Bedoya, tengo 18 años y soy estudiante de ingeniería de sistemas. Me gusta la programación y la tecnología.";
+            document.getElementById("mensaje").innerHTML = mensaje;
+            if (edad>=18)   
+            alert("Eres mayor de edad");
+            else{
+                alert("Eres menor de edad");                    
+        
+            }
+        }
+
+            // 3.bucle for
+            function mostrarNumeros() {
+                let numeros = "";
+                for (let i = 1; i <= 10; i++) {
+                    numeros += i + " ";
+                }
+                document.getElementById("numeros").innerHTML = numeros;
+            }   
+            
+            </script>
+            </body>
+</html>

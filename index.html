@@ -1,23 +1,302 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <title>Currículum Laura Daniela Gongora Bedoya</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+    @keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}body {
+
+      margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background: linear-gradient(-45deg, #6a0dad, #cfa12e, #9b30ff, #ffd700);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  position: relative;
+
+
+      
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: rgba(255, 255, 255, 0.95);
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(102, 51, 0, 0.15);
+      overflow: hidden;
+      padding-bottom: 30px;
+    }
+
+    :root {
+      --violeta: #6a0dad;
+      --dorado: #cfa12e;
+    }
+
+    .left {
+      background: var(--violeta) url(fondo.jpg);
+      color: white;
+      padding: 40px 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .left img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--dorado);
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px var(--dorado);
+    }
+
+    .left h1 {
+      margin: 0 0 5px 0;
+      font-weight: 600;
+      font-size: 2rem;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    .left p {
+      margin: 0 0 30px 0;
+      font-weight: 300;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    .section {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      font-weight: 600;
+      margin-bottom: 15px;
+      border-bottom: 2px solid var(--dorado);
+      padding-bottom: 5px;
+      letter-spacing: 1px;
+    }
+
+    .skills-list, .contact-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .skills-list li, .contact-list li {
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    .right {
+      padding: 40px 40px 40px 50px;
+      background: white;
+    }
+
+    .right h2 {
+      font-weight: 600;
+      color: var(--violeta);
+      border-bottom: 3px solid var(--violeta);
+      padding-bottom: 7px;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    .job, .education {
+      margin-bottom: 25px;
+    }
+
+    .job h3, .education h3 {
+      margin: 0;
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+
+    .job span, .education span {
+      font-weight: 300;
+      font-size: 0.9rem;
+      color: #666;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .job p, .education p {
+      margin: 0;
+      font-weight: 400;
+      line-height: 1.4;
+      color: #444;
+    }
+
+    .portfolio-images {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .portfolio-images img {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px var(--dorado);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .portfolio-images img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 15px var(--dorado);
+    }
+
+    .btn-download {
+      display: inline-block;
+      padding: 12px 25px;
+      background: var(--dorado);
+      color: white;
+      font-weight: 600;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      letter-spacing: 0.5px;
+      margin-top: 10px;
+    }
+
+    .btn-download:hover {
+      background: #b5921e;
+    }
+
+    @media(max-width: 700px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+
+      .right {
+        padding: 30px;
+      }
+
+      .left {
+        flex-direction: row;
+        padding: 20px 30px;
+        justify-content: flex-start;
+        gap: 20px;
+      }
+
+      .left img {
+        width: 100px;
+        height: 100px;
+      }
+
+      .left h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
 </head>
-<body class="algo" >
-    
-</body> <p> nombre de las cosas </p> <body>
-    Daniela Bedoya: Arial sans device-width- serif;
-<margin: 0;
-pudding: 0;
-    background-color: #f0f0f0;
-    color: #333;
-    bu
-g
-part=" my family desde los aque pr"
-<div data-usuario= "Daniela soy una persona aparentemente responsable me gusta saber un poco mas sobre las cosas que me importa
-tengo cosas que me impidan de kas otras maneras que influyan en mi vida para realizar ciertas cosas de la vida que al final es 
-lo  que me importa la vida es de una menra muy peculiar y es a las que estamos predetereminadamente morir poco a poco sin 
-prolema para que todo se ajuste a ella " data-id="123456">
+<body>
+
+<div class="container">
+  <div class="left">
+    <img src="Laura Foto.jpg" alt="Laura Daniela Gongora Bedoya" />
+    <h1>Laura Daniela<br>Gongora Bedoya</h1>
+    <p>Diseñadora Gráfica & Marketing</p>
+
+    <div class="section">
+      <h2>Contacto</h2>
+      <ul class="contact-list">
+        <li>📧 graficoslb@gmail.com</li>
+        <li>📞 631 598 898</li>
+        <li>🌐 Instagram: @arianagongora</li>
+        <li>🔗 LinkedIn: /lauradongora</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Habilidades</h2>
+      <ul class="skills-list">
+        <li>Diseño gráfico avanzado (Photoshop, Illustrator)</li>
+        <li>Marketing digital y publicidad</li>
+        <li>Creatividad & comunicación visual</li>
+        <li>Organización & gestión de proyectos</li>
+        <li>Trabajo en equipo & atención al cliente</li>
+        <li>Adaptabilidad & aprendizaje continuo</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="right">
+    <section class="section">
+      <h2>Experiencia</h2>
+      <div class="job">
+        <h3>Diseñadora Gráfica y Marketing</h3>
+        <span>Freelance | 3 años</span>
+        <p>Desarrollo de campañas visuales, 
+          diseño de branding,
+           gestión de redes 
+           sociales
+           y publicidad digital.</p>
+      </div>
+      <div class="job">
+        <h3>Camarera</h3>
+        <span>Restaurante local | 5 años</span>
+        <p>Atención al cliente, gestión de pedidos y trabajo en equipo bajo presión.</p>
+        <p>cocteleria y bartender</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Educación</h2>
+      <div class="education">
+        <h3>Técnico en Diseño Gráfico</h3>
+        <span>Instituto Don Bosco| 2018 - 2020</span>
+        <p> Bachiller </p>
+        <p>Formación en diseño digital, ilustración y publicidad.</p>
+      </div>
+      <div class="education">
+        <h3>Curso de Marketing Digital</h3>
+        <span>Platzi | 2021</span>
+        <p>Aprendizaje de estrategias de marketing online,
+           SEO y redes sociales.</p>
+    </section>
+
+    <section class="section">
+      <h2>Portafolio</h2>
+      <div class="PROYECTO-30-DE JUNIO">
+        <img src="Proyecto 1 jpg.png" alt="Proyecto 1" />
+        <img src="Proyecto 2 jpg.jpg" alt="Proyecto 2" />
+        <img src="Proyecto 3.png" alt="Proyecto 3" />
+        <img src="Proyecto 4.png" alt="Proyecto 4" />
+        <img src="Proyecto 5.png" alt="Proyecto 5" />
+        <img src="Proyecto 6.png" alt="Proyecto 6" />
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Descarga mi CV</h2>
+      <a href="LauraCV.pdf" download class="btn-download">Descargar CV</a>
+    </section>
+    <h2>Productos a la venta</h2>
+    <a href="Proyecto 6.png" download class="btn-download">Descargar Foto=</a>           
+  </div>
+</div>
+
+</body>
+</html>
+
